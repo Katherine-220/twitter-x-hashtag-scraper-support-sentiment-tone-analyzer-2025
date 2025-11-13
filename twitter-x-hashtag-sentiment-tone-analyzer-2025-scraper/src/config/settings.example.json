@@ -1,0 +1,13 @@
+{
+  "hashtags_file": "data/example_hashtags.txt",
+  "output_path": "data/sample_output.json",
+  "max_items": 100,
+  "language": "en",
+  "min_like_count": 0,
+  "min_retweet_count": 0,
+  "min_reply_count": 0,
+  "verified_only": false,
+  "blue_verified_only": false,
+  "since": null,
+  "until": null
+}
