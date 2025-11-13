@@ -1,0 +1,32 @@
+The structure matches the schema described in the project description, including fields such as:
+
+Tweet-level metadata (id, url, text, counts, timestamps, lang, etc.).
+
+Author details (author.username, author.followers, verification flags, and more).
+
+Lists of hashtags, cashtags, links, and mentionedUsers.
+
+tone and sentiment labels.
+
+6. Running Tests
+To execute the unit tests:
+bashpytest
+
+The tests validate:
+
+Sentiment and tone classification.
+
+Engagement, language, and verification filters.
+
+The full fetch pipeline, including synthetic data generation.
+
+7. Next Steps
+You can extend this project by:
+
+Replacing the synthetic HashtagClient with a real network client.
+
+Plugging the output JSON into BI tools or notebooks.
+
+Integrating this pipeline into a broader data or automation system.
+
+shell
