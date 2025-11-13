@@ -1,0 +1,23 @@
+Each line should contain a single hashtag, with or without the # prefix.
+
+4. Running the Scraper
+From the project root, run:
+bashpython -m src.main
+
+To use a custom config file:
+bashpython -m src.main --config settings.local.json
+
+During execution, the script will:
+
+Load settings.
+
+Generate synthetic tweets for the configured hashtags.
+
+Label each tweet with sentiment and tone.
+
+Apply engagement and verification filters.
+
+Export the final list to JSON.
+
+5. Output Data
+By default, the JSON output is written to:
