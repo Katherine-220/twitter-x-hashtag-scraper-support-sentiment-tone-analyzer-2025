@@ -1,0 +1,16 @@
+Edit the JSON to control:
+
+hashtags_file: Path to a text file with one hashtag per line.
+
+output_path: Where the JSON output should be written.
+
+max_items: Maximum number of tweets to generate.
+
+language: Language code (e.g., en).
+
+Engagement thresholds and verification filters.
+
+Paths in the config are resolved relative to the project root.
+
+3. Input Hashtags
+Example hashtags are provided in:
